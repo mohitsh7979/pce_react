@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header{
+
+  height: 20vh;
+  background-color: red;
+}
+
+.sections{
+
+  height: 60vh;
+  background-color: blue;
+  display: flex;
+}
+
+.footer{
+
+  height: 20vh;
+  background-color: green;
+}
+
+.left{
+
+  width:20%;
+  background-color: yellow;
+}
+
+.right{
+
+  width: 80%;
+  background-color: orange;
+  display: flex;justify-content: space-around;
+}
+
+.card{
+
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}

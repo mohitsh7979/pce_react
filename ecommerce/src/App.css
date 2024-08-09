@@ -1,0 +1,486 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  .nav {
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 10px;
+    position: sticky;
+    top: 0px;
+  }
+
+  .nav ul {
+    display: flex;
+  }
+  .nav ul li {
+    list-style: none;
+    margin: 10px 20px;
+  }
+  .logo {
+    padding-left: 200px;
+    font-size: 35px;
+  }
+
+  .header {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .header ul {
+    display: flex;
+  }
+
+  .header ul li {
+    list-style: none;
+    margin: 10px 20px;
+  }
+  .header .right {
+    display: inline-block;
+    margin: 10px;
+  }
+  .option ul li:hover {
+    color: green;
+    cursor: pointer;
+  }
+  .mid ul li:hover {
+    color: green;
+    cursor: pointer;
+  }
+  .right i:hover {
+    color: green;
+    cursor: pointer;
+  }
+
+  .shop {
+    position: relative;
+  }
+
+  .dropdown {
+    position: absolute;
+    margin-top: 25px;
+    visibility: hidden;
+    border: 2px white solid;
+    transition: all 400ms linear;
+    opacity: 0;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+  }
+
+  .shop:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .dropdown ul li {
+    margin: 10px 0px;
+    padding: 10px;
+  }
+
+  .dropdown ul li:hover {
+    background-color: green;
+    color: white;
+  }
+
+  .banner {
+    position: relative;
+    text-align: left;
+  }
+
+  .inner {
+    position: absolute;
+    top: 260px;
+    left: 190px;
+  }
+
+  .sub_text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    color: white;
+    font-weight: bolder;
+  }
+  h3 {
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+  }
+  h3 span {
+    color: green;
+    font-size: 50px;
+  }
+  h4 {
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+  }
+
+  .view button {
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+  }
+
+  .feature .row {
+    border: 2px solid whitesmoke;
+    padding: 25px;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .feature {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row h3 {
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 100;
+  }
+
+  .row i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+  .row p {
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .product {
+    align-items: center;
+    padding: 80px;
+  }
+
+  .product h1 {
+    text-align: center;
+  }
+
+  .product p {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .big {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    margin: 10px;
+  }
+  .box img {
+    height: 300px;
+  }
+
+  .price span {
+    text-decoration: line-through;
+  }
+
+  .box h4 {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  .price {
+    display: inline-block;
+  }
+  .price h3 {
+    font-size: 20px;
+    color: black;
+  }
+  .price span {
+    color: grey;
+  }
+
+  .offer {
+    position: relative;
+    text-align: left;
+  }
+
+  .offer img{
+    width: 100%;
+  }
+
+  .text {
+    position: absolute;
+    top: 150px;
+    right: 200px;
+  }
+
+  .text h4 {
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 100px;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .text button {
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: none;
+  }
+
+  .text p {
+    padding: 25px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 18px;
+  }
+  .new_product {
+    padding: 80px;
+  }
+
+  .new_product h1 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+  }
+  .new_product p {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    padding: 30px;
+  }
+
+  .summer {
+    
+     display: flex;
+     width: 60%;
+     margin: auto;
+   
+  }
+
+  .summer-right{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px
+  }
+  .item {
+    border: 5px whitesmoke;
+    background-color: whitesmoke;
+    padding: 40px;
+    width: 400px;
+
+  }
+
+  .summer-left img{
+    width: 100%;
+  }
+
+
+
+  .summer-right .item{
+
+    width: 200px;
+  }
+
+  .items {
+    /* width: fit-content; */
+  
+    /* padding: 10px; */
+  }
+
+  .card img{
+    width: 100%;
+  }
+
+  .items h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 20px;
+  }
+
+  .items h1 {
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+
+  .items h2 {
+    font-weight: 300;
+    padding: 30px;
+  }
+  .items button {
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+  }
+  .item h4 {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+  }
+  .inspired {
+    padding: 80px;
+  }
+
+  .inspired h1 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+  }
+  .inspired p {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    padding: 30px;
+  }
+
+  .multi {
+    align-items: center;
+    padding: 10px;
+    margin-left: 110px;
+  }
+  .card {
+    display: inline-block;
+    border: 5px whitesmoke;
+  
+  }
+
+  .summer-left{
+
+    width: 45%;
+    margin: 10px;
+  }
+
+  .card h4 {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+  }
+  .footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 40px;
+  }
+
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .footer .container div {
+    flex: 1;
+  }
+
+  .footer h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .footer p,
+  .footer ul {
+    font-size: 14px;
+    color: #aaa;
+  }
+
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer .newsletter input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #5bc000;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .footer .newsletter button:hover {
+    background-color: #4da000;
+  }
+
+  .footer .socials {
+    margin-top: 20px;
+  }
+
+  .footer .socials a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .footer .socials a:hover {
+    background-color: #5bc000;
+  }
+
+  .footer .copyright {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #333;
+  }
+
+  .banner img {
+    width: 100%;
+  }
