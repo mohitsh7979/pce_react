@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.card{
+
+  width: 17rem;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.prod{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
